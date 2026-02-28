@@ -1,0 +1,19 @@
+environment setup
+    conda create -n carprice python=3.10
+    conda activate carprice
+    conda install numpy pandas matplotlib scikit-learn
+    pip install ipykernel
+    python -m ipykernel install --user --name=carprice --display-name "Python (carprice)"
+
+
+steps:
+    1. model -> Ford Car Brands => USE
+    2. year -> Production Year => USE
+    3. price -> price of car in $ -> distribution
+    4. transimmision -> Automatic, manual, semi-auto  => disputed
+    5. mileage -> number of miles traveled => USE
+    6. fuel_type -> Petrol, Diesel, Hybrid, Electric, Other => USE
+    7. tax -> Annual tax  => USE
+    8. mpg -> Miles per Gallon => USE
+    9. engineSize -> Car's Engine Size => USE
+
